@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+}
+
+html {}
+
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    background-color: #ffca7f;
+}
+
+.active {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    background-color: #ffa87f;
+}
+
+nav ul li a:hover {
+    transform: scale(1.5);
+    background-color: #7fffd4;
+    color: #f0ffff;
+    border-radius: 12px;
+}
+
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+    width: 100%;
+    padding: 0 30px;
+    color: #1b1b1b;
+}
+
+.content div {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.c-contenido {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid #eee;
+    background: #817c7c;
+    height: 100px;
+    width: 700px;
+    box-shadow: 0px 10px 65px 0px #dae0e8;
+    padding: 25px 10px;
+    border-radius: 6px;
+    display: table;
+    margin-bottom: 45px;
+}
+
+.c-contenido2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    height: 100px;
+    width: 700px;
+    padding: 25px 10px;
+    border-radius: 6px;
+    display: table;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+/**/
+
+#main-container {
+    margin: 150px auto;
+    width: 600px;
+}
+
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+thead {
+    background-color: #7da49c;
+    border-bottom: solid 5px #12c399;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td {
+    background-color: #ede2b5;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/**/
+
+.develop {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    background-color: #ffca7f;
+}
+
+.ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.ul-second>li {
+    width: 250px;
+    transform: translateX(-20px);
+    border-bottom: solid 1px #fff;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.ul-second>li:hover {
+    background-color: #87c7a9;
+}
+
+.develop:hover>.ul-second {
+    display: block;
+}
+
+.cont-ul {
+    display: flex;
+    align-items: center;
+}
+
+li:hover {
+    transform: scale(1);
+    background-color: #7fffd4;
+    color: #f0ffff;
+    border-radius: 12px;
+}
+
+
+/**/
+
+.box1 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid #eee;
+    background: #fff;
+    height: 100px;
+    width: 700px;
+    box-shadow: 0px 10px 65px 0px #dae0e8;
+    padding: 25px 10px;
+    border-radius: 6px;
+    display: table;
+    margin-bottom: 45px;
+}
+
+.txt1 {
+    border-left: 12px;
+    text-align: justify;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.foto {
+    height: 300px;
+    width: 400px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
