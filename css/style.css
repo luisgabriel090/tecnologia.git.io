@@ -297,7 +297,36 @@ img {
     margin-top: -45px;
     margin-left: 50px;
 }
-//
+/**/
+.btn-drop {
+    background: linear-gradient(to right, #ffa857, #fe5a73);
+    padding: 0px 10px;
+    color: #fff;
+    border-radius: 3px;
+    width: 190px;
+    height: 53px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 10px 65px 0px #ccd4e0;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: block;
+    float: left;
+    transition: .5s;
+    margin-left: 80px;
+    line-height: 45px;
+    text-align: -webkit-center;
+}
+.btn-drop:hover {
+    box-shadow: 0px 20px 45px 0px #ccd4e0;
+    background: linear-gradient(to right, #ffb26b, #ff6a80);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+/**/
 .redes{
     display: flex;
     justify-content: center;
